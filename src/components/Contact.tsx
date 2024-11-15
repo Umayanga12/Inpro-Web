@@ -96,16 +96,11 @@ const Contact = () => {
 
               {/* Map */}
               <div className="aspect-w-16 aspect-h-9 rounded-xl overflow-hidden shadow-lg">
-                <iframe
-                  title="Location Map"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.25280899054!2d-74.11976341508278!3d40.697403441436425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY!5e0!3m2!1sen!2sus!4v1679072825837!5m2!1sen!2sus"
-                  width="100%"
-                  height="100%"
-                  style={{ border: 0 }}
-                  allowFullScreen
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                />
+              <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.2775217974404!2d79.92688337560344!3d6.976546793024247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae257fb1133a9ab%3A0x43262c18ffd560c2!2sTharanga%20Printers!5e0!3m2!1sen!2slk!4v1731675559789!5m2!1sen!2slk"
+              className="w-full h-64 border-0 rounded-lg"
+              loading="lazy"
+            ></iframe>
               </div>
             </div>
           </div>
