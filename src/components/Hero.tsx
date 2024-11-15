@@ -26,12 +26,16 @@ const Hero = () => {
           Delivering exceptional printing services since 2010
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-delay-2">
+          <a href='#services'>
           <button className="px-8 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-blue-500/50">
             Explore Services
           </button>
+          </a>
+          <a href='#contact'>
           <button className="px-8 py-3 bg-transparent border-2 border-white text-white rounded-full hover:bg-white/10 transform hover:scale-105 transition-all duration-300">
             Contact Us
           </button>
+          </a>
         </div>
       </div>
 
