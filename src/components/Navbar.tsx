@@ -13,7 +13,6 @@ const Navbar: React.FC<NavbarProps> = ({ scrolled }) => {
     { name: 'About', href: '#about' },
     { name: 'Services', href: '#services' },
     { name: 'Why Choose Us', href: '#why-choose-us' },
-    { name: 'Contact', href: '#contact' },
   ];
 
   return (
@@ -46,6 +45,8 @@ const Navbar: React.FC<NavbarProps> = ({ scrolled }) => {
                 {link.name}
               </a>
             ))}
+            
+            <a href='#contact'>
             <button
               className={`px-6 py-2 rounded-full ${
                 scrolled
@@ -53,8 +54,9 @@ const Navbar: React.FC<NavbarProps> = ({ scrolled }) => {
                   : 'bg-white text-slate-900 hover:bg-blue-50'
               } transition-colors`}
             >
-              Get Quote
+              Contact Us
             </button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
