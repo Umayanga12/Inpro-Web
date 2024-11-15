@@ -6,47 +6,47 @@ const Services = () => {
     {
       icon: FileText,
       title: 'Customise Year Planer',
-      image: 'https://images.unsplash.com/photo-1589041127168-9b1915731dc9?auto=format&fit=crop&q=80',
+      image: './images.jpeg',
     },
     {
       icon: Image,
       title: 'Table Calender',
-      image: 'https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&q=80',
+      image: './table-calendars.jpg',
     },
     {
       icon: Package,
       title: 'Spiral binding',
-      image: 'https://images.unsplash.com/photo-1574279606130-09958dc756f7?auto=format&fit=crop&q=80',
+      image: './Book-bindings-1-1024x683.jpg',
     },
     {
       icon: Printer,
       title: 'Hard Cover making',
-      image: 'https://images.unsplash.com/photo-1562564055-71e051d33c19?auto=format&fit=crop&q=80',
+      image: './20231127-Wooding-DSC09132.jpg',
     },
     {
       icon: FileText,
       title: 'PVC Stationery',
-      image: 'https://images.unsplash.com/photo-1589041127168-9b1915731dc9?auto=format&fit=crop&q=80',
+      image: './31-500x500.webp',
     },
     {
       icon: Image,
       title: 'Laminating',
-      image: 'https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&q=80',
+      image: 'worker-laminating-pouches-light-blue-600nw-2115660893.webp',
     },
     {
       icon: Package,
       title: 'Foiling',
-      image: 'https://images.unsplash.com/photo-1574279606130-09958dc756f7?auto=format&fit=crop&q=80',
+      image: './1280_HHP-3.webp',
     },
     {
       icon: Printer,
       title: 'Customise Notebook',
-      image: 'https://images.unsplash.com/photo-1562564055-71e051d33c19?auto=format&fit=crop&q=80',
+      image: './black-floral.jpg',
     },
     {
       icon: Printer,
       title: 'Cake Boards',
-      image: 'https://images.unsplash.com/photo-1562564055-71e051d33c19?auto=format&fit=crop&q=80',
+      image: './411fd2db6b276b2fa0e6d6c63d019471.jpg',
     },
   ];
 
